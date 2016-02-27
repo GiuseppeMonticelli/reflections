@@ -1,0 +1,20 @@
+Q - What happens when you initialize a repository? Why do you need to
+do it?
+
+A - A subdirectory with name '.git' is created in the directory I want
+to initialize as a repository. The initialization is necessary in
+order to have a file structure (in this case a directory with uts
+content) that the Git application can recognise as a 'repository'.
+
+Q - How is the staging area different from the working directory and
+the repository? What value do you think it offers?
+
+A - The staging area is conceptually in the middle between the working
+directory and the repository. The repository and the staging area are
+part of Git, the working directory not really, though it interacts
+with it (it is part of the operating system). The value offered by the
+staging area is that it decouples the working area from the
+repository, letting to the user the freedom to choose which files are
+actually to be added to the repository with each commit.
+
+
