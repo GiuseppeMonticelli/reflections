@@ -30,7 +30,6 @@ your history organized? How would branches help?
 A - When you want to have a parallel version of the software with
 different features that you don't want (yet) to integrate into the
 master branch. Branches are useful because they can be checked out
-exactely like the master branch or a particular commit.
-
-
-
+exactely like the master branch or a particular commit. (Think to the
+master branch also as a 'production' branch, where all must function
+perfectly, and to other branches as 'experimental'.)
