@@ -24,3 +24,13 @@ A - By adding each time to the staging area only the files from the
 working directory actually involved in that logical change, and then
 committing them to the repository.
 
+Q - What are some situations when branches would be helpful in keeping
+your history organized? How would branches help?
+
+A - When you want to have a parallel version of the software with
+different features that you don't want (yet) to integrate into the
+master branch. Branches are useful because they can be checked out
+exactely like the master branch or a particular commit.
+
+
+
