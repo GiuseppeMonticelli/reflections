@@ -39,5 +39,12 @@ Q - How do the diagrams help you visualize the branch structure?
 A - In the way that you can immediately spot-out the actual
 reachability of nodes
 
+Q - What is the result of merging two branches together? Why do we
+represent it in the diagram the way we do?
 
+A - The result is that the commits belonging to the history of the
+newer branch only, starting from the common origin, are incorporated
+to the (typically) older branch, the one currently checked out. The
+representation with the diagram is the only one useful to have a clear
+look on the situation.
 
