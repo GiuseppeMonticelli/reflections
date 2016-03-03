@@ -33,3 +33,11 @@ master branch. Branches are useful because they can be checked out
 exactely like the master branch or a particular commit. (Think to the
 master branch also as a 'production' branch, where all must function
 perfectly, and to other branches as 'experimental'.)
+
+Q - How do the diagrams help you visualize the branch structure?
+
+A - In the way that you can immediately spot-out the actual
+reachability of nodes
+
+
+
