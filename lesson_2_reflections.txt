@@ -3,7 +3,7 @@ do it?
 
 A - A subdirectory with name '.git' is created in the directory I want
 to initialize as a repository. The initialization is necessary in
-order to have a file structure (in this case a directory with uts
+order to have a file structure (in this case a directory with its
 content) that the Git application can recognise as a 'repository'.
 
 Q - How is the staging area different from the working directory and
