@@ -48,3 +48,11 @@ to the (typically) older branch, the one currently checked out. The
 representation with the diagram is the only one useful to have a clear
 look on the situation.
 
+Q - What are the pros and cons of Git’s automatic merging vs. always
+doing merges manually?
+
+A - Automatic merging is of course less error-prone, but manual merging
+is unavoidable when the same lines of a file are changed by two
+different authors. Also unavoidble in the latter case is the total
+understanding of what the code (and the change in the code) actually
+means.
