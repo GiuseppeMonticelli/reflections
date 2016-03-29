@@ -9,3 +9,14 @@ having Git automatically stay up-to-date with your remote repository?
 A - Because I prevently need to understand if I actually want that the changes
 performed by someone else on the remote repository do make sense also
 in my working directory.
+
+Q - Describe the differences between forks, clones, and branches. When
+would you use one instead of another?
+
+A - A 'fork' is a concept related to the GitHub platform only: you
+usually fork a repository when you have no possibility to write to a
+someone's else repository. A 'clone' is just copying a remote
+repository locally, in order to work with it. 'Branches' are just
+different flows, like the main stream of stable development (the
+'master' branch) and different others, each for different goals (like,
+e.g., introducing a new feature, or fixing a bug).
